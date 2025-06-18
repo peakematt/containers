@@ -4,6 +4,6 @@ USER root
 
 RUN apk add --update \
   python3 \
-  python3-pip
+  py3-pip
 
 USER 100
