@@ -17,7 +17,7 @@ jobs:
       - name: Build Atlantis
         uses: docker/build-push-action@v4
         with:
-          context: atlantis
+          context: containers/atlantis
           platforms: linux/arm64, linux/amd64, linux/arm/v7
           push: true
           tags: ghcr.io/peakematt/atlantis:latest
