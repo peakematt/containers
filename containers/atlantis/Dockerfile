@@ -1,4 +1,4 @@
-FROM ghcr.io/runatlantis/atlantis:dev
+FROM ghcr.io/runatlantis/atlantis:dev-debian
 
 USER root
 
