@@ -20,5 +20,4 @@ jobs:
           context: atlantis
           platforms: linux/arm64, linux/amd64, linux/arm/v7
           push: true
-          sbom: true
           tags: ghcr.io/peakematt/atlantis:latest
